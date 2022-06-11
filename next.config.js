@@ -2,7 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   env: {
-    STRIP_API_KEY: process.env.STRIP_API_KEY
+    STRIP_API_KEY: process.env.STRIP_API_KEY,
+    GITHUB_CLIENT_ID: process.env.GITHUB_CLIENT_ID,
+    GITHUB_CLIENT_SECRET: process.env.GITHUB_CLIENT_SECRET,
   }
 }
 
